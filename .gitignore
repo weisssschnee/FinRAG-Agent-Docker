@@ -1,0 +1,19 @@
+.venv/
+venv/
+env/
+
+# 忽略 Python 缓存
+__pycache__/
+*.py[cod]
+
+# 忽略数据库文件（ChromaDB 数据）
+chroma_db/
+*.db
+*.sqlite
+
+# 忽略环境变量和敏感信息
+.env
+.DS_Store
+
+# 忽略 VS Code 配置
+.vscode/
