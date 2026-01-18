@@ -1,48 +1,5 @@
-# Streamlit 应用核心依赖
-streamlit>=1.28.0
-pandas>=1.5.0
-numpy>=1.21.0
-python-dotenv>=0.19.0
-
-# 数据可视化
-plotly>=5.14.0
-
-# HTTP 请求和异步
-requests>=2.28.0
-aiohttp>=3.8.0
-
-# 股票数据获取
-yfinance>=0.2.0
-tushare>=1.2.62
-futu-api
-
-# 技术分析
-ta>=0.10.0
-
-# 文本分析和情感分析
-textblob>=0.17.1
-vaderSentiment>=3.3.2
-feedparser>=6.0.10
-newspaper3k>=0.2.8
-
-# 新闻API
-newsapi-python>=0.2.6
-
-# 时区处理
-pytz>=2022.1
-
-# HTML解析
-beautifulsoup4>=4.11.0
-
-# 数据持久化
-sqlalchemy>=1.4.23
-
-# 模型序列化（用于加载已保存的模型）
-joblib>=1.2.0
-
-# 科学计算（用于统计计算）
-scipy>=1.9.0
-
-# 可选：金融数据API（如果使用）
-# finnhub-python>=2.4.0
-# polygon-api-client>=1.12.0
+streamlit
+pandas
+chromadb
+sentence-transformers
+feedparser
